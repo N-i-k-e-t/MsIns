@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt-Based Video Player</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+    <div class="header">
+        <p class="title">NATIONAL STARTUP DAY JAN 2025 </p>
+        <p class="sub-title">Inauguration and ceremonial lamp lighting by the Hon'ble Chief Minister of Maharashtra.</p>
+        <br>
+    </div>
+
+    <div class="video-border">
+        <div class="video-container">
+        <video id="videoPlayer" controls></video>
+    </div>
+    </div>
+    
+
+    <div id="loader" class="loading" style="display: none;">
+        <div class="loading-text">
+        <span class="loading-text-words">G</span>
+        <span class="loading-text-words">E</span>
+        <span class="loading-text-words">N</span>
+        <span class="loading-text-words">E </span>
+        <span class="loading-text-words">R</span>
+        <span class="loading-text-words">A </span>
+        <span class="loading-text-words">T</span>
+        <span class="loading-text-words">I</span>
+        <span class="loading-text-words">N</span>
+        <span class="loading-text-words">G</span>
+    </div>
+    </div>
+    <div class="prompt-container">
+        <input type="text" id="promptInput" placeholder="Enter your prompt">
+        <button id="enterButton" class="enterButton">Inaugurate</button>
+    </div>
+
+    <div class="powered-by">Powered by AI</div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
